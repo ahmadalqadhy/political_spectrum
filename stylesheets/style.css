@@ -117,7 +117,7 @@ body {
   cursor: pointer;
 }
 #term-slider:focus::-ms-fill-lower {
-  background: #3071a9;
+  background: blue;
 }
 #term-slider:focus::-ms-fill-upper {
   background: #367ebd;
