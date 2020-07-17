@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political spectrum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/a-reset.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./data/congress.json"></script>
+</head>
+<body>
+    <div class="top">
+        <h1 id="title">Political Spectrum</h1>
+        <span id="slogan">Mapping members of Congress based on idiology</span>
+
+        
+        <div class="plot-part">
+            <div class="slidertest"></div>
+            <div id="button-area"></div>
+            <div class="info"></div>
+            <div id="scatter"></div>
+        </div>
+        <div class="message"></div>
+        <h2 id="created">Created by Ahmad Alqadhy</h2>
+        <nav>
+            <a href="https://github.com/ahmadalqadhy" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ahmad-alqadhy-1895a6161/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/ahmad-alqadhy-1895a6161/" target="_blank"><i class="fas fa-globe"></i></a>
+        </nav>
+    </div>
+    <script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+</html>
