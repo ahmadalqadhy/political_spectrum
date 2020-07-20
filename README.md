@@ -1,6 +1,6 @@
 # Political Spectrum
 
-<a target="_blank"><h2>Live Site</h2></a>
+<a target="_blank" href="https://ahmadalqadhy.github.io/political_spectrum/"><h2>Live Site</h2></a>
 
 ![mainview](img/home.png)
 
